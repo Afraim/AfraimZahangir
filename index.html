@@ -60,6 +60,15 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
+    <style>
+      .hover-scale img {
+        transition: transform 0.3s ease; /* smooth by default */
+      }
+
+      .hover-scale:hover img {
+        transform: scale(1.10); /* only transform on hover */
+      }
+    </style>
   </head>
 
   <body id="page-top">
@@ -316,13 +325,24 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
-          <h4>Web Development Projects & Coding Instructor Portfolio</h4>
-          <div class="subheading mb-4">Client Web Projects</div>
-          <h6 class="mb-3" style="font-weight: bold;">Client websites that I have worked on are shown here:</h6>
+          <h4>Development Projects & Coding Instructor Portfolio</h4>
+          
+          <div class="subheading mb-4">Client Projects</div>
+          <h6 class="mb-3" style="font-weight: bold;">Client projects that I have worked on are shown here:</h6>
           <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <div style="text-align: center;">
+                <img src="img/InceptaHRM.png"  width="300"><h4>Internal HRM System for <b>Incepta Pharmaceuticals Ltd.</b></h4> 
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <div style="text-align: center;">
+                <img src="img/AlumaVerse.png"  width="300"><h4 style="text-align: center;">Railing Quote Generator for <b>AlumaVerse</b></h4>
+              </div>
+            </li>
             <li class="list-inline-item">
               <a href="https://misovibes.com/" target="_blank"><img src="img/misovibes.png"  width="300"><h4 style="text-align: center;">Custom Website <b>MisoVibes</b></h4></a>  
             </li>
@@ -336,7 +356,7 @@
               <a href="https://solarhomebd.com/" target="_blank"><img src="img/solarhomebdHome.png" width="300"><h4 style="text-align: center;">Company Profile <b>Solar Home BD</b></h4></a>
             </li>
             <li class="list-inline-item">
-              <a href="http://test.unidafurnishers.com/" target="_blank"><img src="img/unidaHome.png" width="300"><h4 style="text-align: center;">E-com site <b>Unida Furnishers</b></h4></a>
+              <a href="https://www.unidafurnishers.com/" target="_blank"><img src="img/unidaHome.png" width="300"><h4 style="text-align: center;">E-com site <b>Unida Furnishers</b></h4></a>
             </li>
           </ul>
           <br><br>
@@ -380,7 +400,268 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
+  <div class="my-auto">
+    <h2 class="mb-5 mt-2">Projects & Portfolio</h2>
+    
+    <!-- Client Projects -->
+    <h3 class="mb-4">💼 Client Projects</h3>
+    <div class="row">
+
+      <div class="col-md-6 col-lg-4 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <img src="img/InceptaHRM.png" class="card-img-top" alt="Incepta HRM">
+          <div class="card-body">
+            <h5 class="card-title">Internal HRM System</h5>
+            <p class="card-text"><b>Client:</b> Incepta Pharmaceuticals Ltd.<br>
+              Designed and developed a full-featured HRM system for attendance, leave, overtime, payroll, and employee management.</p>
+            <span class="badge bg-primary text-light">Django</span>
+            <span class="badge bg-secondary text-light">PostgreSQL</span>
+            <span class="badge bg-success text-light">HR Tech</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <img src="img/AlumaVerse.png" class="card-img-top" alt="AlumaVerse">
+          <div class="card-body">
+            <h5 class="card-title">Railing Quote Generator</h5>
+            <p class="card-text"><b>Client:</b> AlumaVerse<br>
+              Built a dynamic material calculator and quotation generator for railing configurations with automated pricing logic.</p>
+            <span class="badge bg-primary text-light">JavaScript</span>
+            <span class="badge bg-info text-light">Django</span>
+            <span class="badge bg-warning text-light">Automation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://misovibes.com/" target="_blank">
+            <img src="img/misovibes.png" class="card-img-top" alt="MisoVibes">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Custom Website</h5>
+            <p class="card-text"><b>Client:</b> MisoVibes<br>
+              Developed a custom responsive website with optimized performance and modern design.</p>
+            <span class="badge bg-dark text-light">HTML</span>
+            <span class="badge bg-danger text-light">CSS</span>
+            <span class="badge bg-primary text-light">JS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://binarycgi.com/" target="_blank">
+            <img src="img/binaryCGIhome.png" class="card-img-top" alt="BinaryCGI">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Company Profile</h5>
+            <p class="card-text"><b>Client:</b> BinaryCGI<br>
+              Developed a professional company profile site showcasing services, portfolio, and brand identity.</p>
+            <span class="badge bg-primary text-light">WordPress</span>
+            <span class="badge bg-secondary text-light">UI/UX</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://sazvanity.com/" target="_blank">
+            <img src="img/SazVanityhome.png" class="card-img-top" alt="Saz Vanity">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce Website</h5>
+            <p class="card-text"><b>Client:</b> Saz Vanity<br>
+              Created a full-featured e-commerce store with product catalog, shopping cart, and secure checkout.</p>
+            <span class="badge bg-success text-light">E-Commerce</span>
+            <span class="badge bg-primary text-light">WordPress</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://solarhomebd.com/" target="_blank">
+            <img src="img/solarhomebdHome.png" class="card-img-top" alt="Solar Home BD">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Company Profile</h5>
+            <p class="card-text"><b>Client:</b> Solar Home BD<br>
+              Built a clean and professional company profile website for a solar energy solutions provider.</p>
+            <span class="badge bg-info text-light">Corporate</span>
+            <span class="badge bg-secondary text-light">Branding</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://www.unidafurnishers.com/" target="_blank">
+            <img src="img/unidaHome.png" class="card-img-top" alt="Unida Furnishers">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce Website</h5>
+            <p class="card-text"><b>Client:</b> Unida Furnishers<br>
+              Developed a furniture e-commerce site with product gallery, order system, and user-friendly UI.</p>
+            <span class="badge bg-success text-light">E-Commerce</span>
+            <span class="badge bg-primary text-light">WordPress</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Teaching / Classes -->
+    <h3 class="mt-5 mb-4">🎓 Online Classes</h3>
+    <div class="row">
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://youtu.be/d3Nlifc0tA4" target="_blank">
+            <img src="img/making a game.JPG" class="card-img-top" alt="Making a Game">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Making a Game</h6>
+            <p class="card-text">Step-by-step tutorial for students on how to make a simple game from scratch.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://youtu.be/swPQFBeWT7o" target="_blank">
+            <img src="img/google site website.JPG" class="card-img-top" alt="Google Site">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Google Site Website</h6>
+            <p class="card-text">Tutorial on how to create a simple website using Google Sites.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://youtu.be/c8twzwBfLFU" target="_blank">
+            <img src="img/calculator.JPG" class="card-img-top" alt="Calculator Project">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Calculator</h6>
+            <p class="card-text">Building a calculator using HTML, CSS & JavaScript, teaching programming basics.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://youtu.be/XqI6h-8jqPs" target="_blank">
+            <img src="img/Scratch Game Making.JPG" class="card-img-top" alt="Scratch Game">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Scratch Game Making</h6>
+            <p class="card-text">Interactive tutorial for kids to learn coding through Scratch game design.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repositories -->
+    <h3 class="mt-5 mb-4">💻 Personal Projects & Repositories</h3>
+    <div class="row">
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://github.com/Afraim/flipBook" target="_blank">
+            <img src="img/FlipBook.JPG" class="card-img-top" alt="FlipBook">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">FlipBook</h6>
+            <p class="card-text">Interactive digital flipbook built with HTML, CSS, & JS.</p>
+            <span class="badge bg-dark text-light">JavaScript</span>
+            <span class="badge bg-light text-dark text-light">Frontend</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://github.com/Afraim/Tic-Tac-Toe" target="_blank">
+            <img src="img/Tic-Tac-Toe.JPG" class="card-img-top" alt="Tic Tac Toe">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Tic-Tac-Toe</h6>
+            <p class="card-text">Classic Tic-Tac-Toe game built using HTML, CSS & JS.</p>
+            <span class="badge bg-dark text-light">JavaScript</span>
+            <span class="badge bg-light text-dark text-light">Frontend</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://github.com/Afraim/RPS" target="_blank">
+            <img src="img/rock paper scissors.JPG" class="card-img-top" alt="Rock Paper Scissors">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Rock Paper Scissors</h6>
+            <p class="card-text">Interactive Rock Paper Scissors game built in HTML, CSS & JS.</p>
+            <span class="badge bg-dark text-light">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://github.com/Afraim/HangMan-Csharp" target="_blank">
+            <img src="img/HangMan.JPG" class="card-img-top" alt="HangMan">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">HangMan</h6>
+            <p class="card-text">Classic Hangman word guessing game developed in C#.</p>
+            <span class="badge bg-secondary text-light">C#</span>
+            <span class="badge bg-info text-light">Desktop</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://github.com/Afraim/doctor_s-desk" target="_blank">
+            <img src="img/good doctor.JPG" class="card-img-top" alt="Doctor's Desk">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Doctor's Desk</h6>
+            <p class="card-text">Medical management system built with C# and SQL for doctors’ daily use.</p>
+            <span class="badge bg-secondary text-light">C#</span>
+            <span class="badge bg-warning text-light">SQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 hover-scale">
+        <div class="card shadow-sm h-100">
+          <a href="https://github.com/Afraim/ARC" target="_blank">
+            <img src="img/circuit diagram.png" class="card-img-top" alt="Arduino Water Tank">
+          </a>
+          <div class="card-body">
+            <h6 class="card-title">Home Water Tank System</h6>
+            <p class="card-text">IoT-based water tank monitoring system using Arduino, Firebase & Java.</p>
+            <span class="badge bg-success text-light">Arduino</span>
+            <span class="badge bg-danger text-light">Firebase</span>
+            <span class="badge bg-primary text-light">Java</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
